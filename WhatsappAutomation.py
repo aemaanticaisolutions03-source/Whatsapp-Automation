@@ -29,7 +29,7 @@ if uploaded_file is not None:
 
     if st.button("🚀 Send Campaign"):
 
-        webhook_url = "https://n8n-railway-production-1ee8.up.railway.app/webhook-test/send-campaign"
+        webhook_url = "https://amaanmomin03.app.n8n.cloud/webhook/send-campaign"
 
         data = {
             "contacts": df.to_dict(orient="records"),
